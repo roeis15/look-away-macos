@@ -2,6 +2,8 @@
 
 A lightweight native macOS menu-bar utility built with **SwiftUI** and **AppKit** to encourage scheduled screen breaks and reduce eye and screen fatigue without heavy system overhead.
 
+> **Platform Note:** Built specifically for **macOS** (uses `AppKit`, `NSWorkspace`, and `SMAppService`).
+
 ## Overview
 LookAway runs as a background accessory in the macOS menu bar and presents a full-screen break screen at the configured interval, with controls for focus/break durations, pause/resume, launch at login, and quick dismissal (`ESC`).
 
@@ -27,4 +29,4 @@ LookAway runs as a background accessory in the macOS menu bar and presents a ful
 1. Clone the repository:
    ```bash
    git clone [https://github.com/roeis15/look-away-macos.git](https://github.com/roeis15/look-away-macos.git)
-
+   cd look-away-macos
